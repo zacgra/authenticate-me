@@ -9,10 +9,8 @@ class Api::SessionsController < ApplicationController
   end
 
   def create
-    @user = User.find_by_credentials(
-      params[:credentials],
-      params[:password]
-    )
+    credentials, password = session_params.values_at(:credentials, :password)
+    @user = User.find_by_credentials(credentials, password)
     if @user
       login!(@user)
       render 'api/users/show'
@@ -24,5 +22,9 @@ class Api::SessionsController < ApplicationController
   def destroy
     logout! if current_user
     render json: { message: 'success' }
+  end
+
+  def session_params
+    params.require(:session).permit(:credentials, :password)
   end
 end
