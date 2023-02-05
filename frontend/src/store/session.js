@@ -43,7 +43,7 @@ export const login =
     const response = await csrfFetch("/api/session", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ credentials, password }),
+      body: `{"session": ${JSON.stringify({ credentials, password })}}`,
     });
 
     if (response.ok) {
