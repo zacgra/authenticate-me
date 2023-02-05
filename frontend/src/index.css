@@ -1,0 +1,41 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e3e3e3;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #cecece;
+}
+
+button {
+  color: #35354c;
+  background-color: #cecece;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: larger;
+  padding: 0.75em;
+  border-radius: 0.2em;
+  border-style: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 800;
+}

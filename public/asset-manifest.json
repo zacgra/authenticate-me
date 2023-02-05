@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7300e38e.css",
+    "main.js": "/static/js/main.4c8b8ae4.js",
+    "static/media/pirate-treasure.gif": "/static/media/pirate-treasure.c49040d66d90a257c245.gif",
+    "index.html": "/index.html",
+    "main.7300e38e.css.map": "/static/css/main.7300e38e.css.map",
+    "main.4c8b8ae4.js.map": "/static/js/main.4c8b8ae4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7300e38e.css",
+    "static/js/main.4c8b8ae4.js"
+  ]
+}

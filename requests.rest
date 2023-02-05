@@ -1,0 +1,45 @@
+
+# TEST demo action
+
+POST http://localhost:5000/api/test
+Content-Type: application/json
+X-CSRF-TOKEN: token
+
+###
+POST http://localhost:5000/api/test?login
+Content-Type: application/json
+
+###
+POST http://localhost:5000/api/test?logout
+Content-Type: application/json
+
+###
+# SESSIONS
+# api/sessions/show
+GET http://localhost:5000/api/session
+Content-Type: application/json
+
+###
+# api/sessions/create
+POST http://localhost:5000/api/session
+Content-Type: application/json
+
+{
+    "credential": "Demo-lition", "password": "password"
+}
+
+###
+# api/sessions#destroy
+DELETE http://localhost:5000/api/session
+Content-Type: application/json
+
+###
+# api/users#create
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+    "email": "coolemail@hotmail.net",
+    "username": "cooluser",
+    "password": "starwars"
+}

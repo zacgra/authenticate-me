@@ -1,0 +1,16 @@
+#treasure {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-page h1 {
+  font-size: xx-large;
+  color: #35354c;
+}
+
+#treasure img {
+  margin-top: 3em;
+}
