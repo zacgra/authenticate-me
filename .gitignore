@@ -1,7 +1,13 @@
 # Created by https://www.toptal.com/developers/gitignore/api/rails
 # Edit at https://www.toptal.com/developers/gitignore?templates=rails
 
+# VS Code
+.vscode
+vscode-*
+
+
 ### Rails ###
+public/*
 *.rbc
 capybara-*.html
 .rspec
