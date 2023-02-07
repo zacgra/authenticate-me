@@ -25,6 +25,3 @@ The app features pages for signing up, logging in, and a homepage logout dropdow
 - `bundle exec rails s`
 
 You should be able to see the app in your browser at either localhost:5000 or 127.0.0.1:5000
-
-My Project Takeaways:
-This was a tough project when it came down to handling redux with the session and csrf tokens. I felt pretty good about it up until it got to the "restoring a session token" for moving auth between tabs. Also, I felt really clumsy with my CSS as it had been a while since I'd dont frontend.
