@@ -4,7 +4,7 @@ This is an auth app using Rails, React, and Redux.
 
 The app features pages for signing up, logging in, and a homepage logout dropdown. It handles account creation as well as session/csrf token management.
 
-![AuthenticateMe](./AuthenticateMe.png)
+![AuthenticateMe](./AuthenticateMe.jpg)
 
 # Getting Started
 
